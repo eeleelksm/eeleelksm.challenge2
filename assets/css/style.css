@@ -3,6 +3,23 @@
     margin: 0;
 }
 
+:root {
+--maroon: rgb(104, 31, 31);
+}
+
+.primary-border {
+    border-right: 2px solid var(--maroon);
+    display: inline;
+}
+
+.section-title {
+    color: var(--maroon);
+    padding: 10px;
+    margin: 5px;
+    font-size: 25px;
+    display: flex;
+}
+
 body {
     background-color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,18 +27,21 @@ body {
 
 header {
     padding: 15px 20px;
-    background-color: rgb(65, 133, 124);
+    background-color: rgb(145, 112, 142);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-bottom: 5px solid var(--maroon);
 }
 
 header h1 {
     font-size: 40px;
-    margin: 0;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5)
+    padding: ;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: left;
+    display: flex;
 }
 
 header a {
@@ -44,10 +64,67 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: lightgray;
+    background: white;
     color: rgb(52, 122, 112);
     text-shadow: none;
     border-radius: 10px;
     padding: 10px;
     opacity: .75;
+}
+
+header span {
+    color: var(--maroon);
+    text-shadow: none;
+}
+
+.hero {
+    padding: 90px;
+    background-image: url("../images/peonies-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 5px solid var(--maroon);
+}
+.my-sections {
+    display: flex;
+    padding: 15px;
+}
+
+.my-sections h2 {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-me-section img {
+    border-radius: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+.intro-text {
+    line-height: 1.5;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(145, 112, 142);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
 }
