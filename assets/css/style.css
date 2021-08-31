@@ -78,7 +78,7 @@ header span {
 }
 
 .hero {
-    padding: 90px;
+    padding: 120px;
     background-image: url("../images/peonies-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -87,6 +87,27 @@ header span {
     justify-content: center;
     border-bottom: 5px solid var(--maroon);
 }
+
+.aboutme-work {
+    display: block;
+    width: 20%;
+    float: left;
+}
+
+.img-text {
+    display: block;
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+
+.img-text img {
+    display: block;
+    width: 20%;
+    float: left;
+    border-radius: 50%;
+}
+
 .my-sections {
     display: flex;
     padding: 15px;
@@ -106,17 +127,21 @@ header span {
 .intro-text {
     line-height: 1.5;
     padding: 20px;
+    width: 75%;
 }
 
 footer {
     background-color: rgb(145, 112, 142);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
     padding: 15px 15px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
 }
+
 footer a {
     text-decoration: none;
     color: blanchedalmond;
