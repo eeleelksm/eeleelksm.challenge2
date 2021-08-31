@@ -16,17 +16,18 @@
 }*/
 
 .section-title {
-    color: var(--almond);
-    padding: 10px;
-    margin: 25px;
+    color: var(--maroon);
+    padding: 15px;
+    margin-right: 10px;
     font-size: 25px;
+    width: 15%;
     text-align: center;
-    background: var(--rose);
+    display: inline-block;
     /*display: flex;*/
 }
 
 .primary-border {
-    border: 2px solid var(--maroon);
+    border-right: 2px solid var(--maroon);
 }
 
 body {
@@ -47,7 +48,6 @@ header {
 
 header h1 {
     font-size: 40px;
-    padding: ;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
     text-align: left;
     display: flex;
@@ -87,59 +87,36 @@ header span {
 }
 
 .hero {
-    padding: 120px;
+    height: 350px;
     background-image: url("../images/peonies-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
     border-bottom: 5px solid var(--maroon);
 }
 
-.aboutme-work {
-    display: block;
-    width: 20%;
-    float: left;
-    padding: 15px;
+.myheaders {
     display: flex;
     flex-direction: column;
 }
 
-/*.img-text {
-    display: block;
-    width: 70%;
-    float: left;
-    padding: 10px;
-}
-
-.img-text img {
-    display: block;
-    width: 20%;
-    float: left;
-    border-radius: 50%;
-}
-
-.my-sections {
+.aboutme-section {
     display: flex;
-    padding: 15px;
+    align-items: center;
 }
 
-.my-sections h2 {
-    padding: 50px;
-    text-align: center;
-}
-
-.about-me-section img {
+.aboutme-section img {
+    padding: 5px;
+    margin: 5px;
+    width: 16%;
     border-radius: 50%;
-    text-align: left;
-    padding: 10px;
 }
 
-.intro-text {
-    line-height: 1.5;
-    padding: 20px;
-    width: 75%;*/
+.aboutme-section p {
+    text-align: left;
+    margin: 20px;
+    width: 55%;
 }
 
 /*footer {
