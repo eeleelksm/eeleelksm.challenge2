@@ -107,10 +107,10 @@ header span {
 }
 
 .aboutme-section img {
-    padding: 5px;
     margin: 5px;
     width: 16%;
     border-radius: 50%;
+    border: 2px solid var(--maroon);
 }
 
 .aboutme-section p {
@@ -119,26 +119,46 @@ header span {
     width: 55%;
 }
 
-/*footer {
+.mywork-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mywork-section img {
+    width: 150px;
+    border-color: var(--maroon);
+    margin-top: 20px;
+}
+
+footer {
     background-color: rgb(145, 112, 142);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: var(--almond);
+    text-decoration: none;
     padding: 15px 15px;
-    width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
     height: 20px;
 }
-
-footer a {
-    text-decoration: none;
-    color: blanchedalmond;
+footer p {
+    font-weight: bold;
 }
 
 footer ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
-    align-items: center;*/
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--almond);
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: var(--maroon);
 }
