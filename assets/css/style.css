@@ -114,12 +114,14 @@ header span {
 
 .mywork-section img {
     width: 200px;
-    margin-top: 20px;
+    height: 55px;
+    margin: 20px;
     border: none;
 }
 
 .mywork-section img:hover {
     width: 250px;
+    height: 75px;
     opacity: 75%;
 }
 
