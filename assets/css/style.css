@@ -180,7 +180,7 @@ footer a:hover {
         flex-direction: column;
     }
 
-    .aboutme-section, .mywork-section h2 {
+    .aboutme-section h2, .mywork-section h2 {
         flex: 1 30%;
         width: 100%;
         justify-content: center;
