@@ -180,13 +180,8 @@ footer a:hover {
         margin: 10px;
     }
 
-    .aboutme-section, .mywork-section {
+    .aboutme-section, .mywork-section, .contactinfo-section {
         flex-direction: column;
-    }
-
-    .contactinfo-section {
-        display: block;
-        text-align: center;
     }
 
     .aboutme-section h2, .mywork-section h2, .contactinfo-section h2 {
