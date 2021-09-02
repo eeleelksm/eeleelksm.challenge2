@@ -90,7 +90,7 @@ header span {
     border-bottom: 5px solid var(--maroon);
 }
 
-.aboutme-section {
+.aboutme-section, .mywork-section {
     margin-top: 20px;
     margin-bottom: 50px;
     display: flex;
@@ -112,13 +112,6 @@ header span {
     width: 500px;
 }
 
-.mywork-section {
-    margin-top: 20px;
-    margin-bottom: 100px;
-    display: flex;
-    align-items: center;
-    
-}
 .mywork-section img {
     width: 200px;
     margin-top: 20px;
@@ -128,6 +121,13 @@ header span {
 .mywork-section img:hover {
     width: 250px;
     opacity: 75%;
+}
+
+.contactinfo-section {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
 }
 
 footer {
@@ -177,15 +177,20 @@ footer a:hover {
     .primary-border {
         border-right:  none;
         border-bottom: 2px solid var(--maroon);
-        margin: 20px;
+        margin: 10px;
     }
 
     .aboutme-section, .mywork-section {
         flex-direction: column;
     }
 
-    .aboutme-section h2, .mywork-section h2 {
-        flex: 1 30%;
+    .contactinfo-section {
+        display: block;
+        text-align: center;
+    }
+
+    .aboutme-section h2, .mywork-section h2, .contactinfo-section h2 {
+        flex: 20%;
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -200,3 +205,4 @@ footer a:hover {
     .aboutme-section p {
         width: 90%;
     }
+}
