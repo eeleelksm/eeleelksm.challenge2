@@ -2,6 +2,9 @@
 
 In this Challenge, we were asked to begin working on our own professional portfolio from scratch. In this challenge, I:
 
+## Portfolio Link
+The following link navigates to the portfolio: https://eeleelksm.github.io/eeleelksm.challenge2/
+
 ```
 Presented my name, a recent photo or avatar, and links to sections about me, my work, and contact information
 When a link in the navigation is selected, the UI scrolls to the corresponding section
